@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 20px;
+}
+.container{
+    /* background-color: pink; */
+    display: inline-flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container2{
+    background-color: pink;
+    gap:10px;
+    display: flex;
+    /* margin-bottom: 20px; */
+}
+
+.div1{
+    background-color: aqua;
+}
+.div2{
+    background-color: blue;
+
+}
+.div3{
+    background-color: bisque;
+
+}
+.div4{
+    background-color: brown;
+}
+.div5{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,83 @@
+/* Registration.css */
+
+/* General Styling for the Registration Container */
+.Registration {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .Registration h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Label Styling */
+  .Registration label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  /* Input Field Styling */
+  .Registration input[type="text"],
+  .Registration input[type="email"],
+  .Registration input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .Registration input[type="text"]:focus,
+  .Registration input[type="email"]:focus,
+  .Registration input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button Styling */
+  .Registration input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Registration input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link Styling */
+  .Registration p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .Registration a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .Registration a:hover {
+    text-decoration: underline;
+  }
